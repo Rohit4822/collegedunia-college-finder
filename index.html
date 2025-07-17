@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collegedunia - Find Your Perfect College</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Collegedunia</h1>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#colleges">Colleges</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#exams">Exams</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                    <button class="mobile-menu-btn" id="mobile-menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Find Your Perfect College</h2>
+                <p>Discover the best colleges and universities across India. Compare courses, fees, placements and more.</p>
+                <form class="search-form" id="search-form">
+                    <div class="search-container">
+                        <input type="text" id="search-input" placeholder="Search colleges, courses, or locations..." class="search-input">
+                        <button type="submit" class="search-btn">Search</button>
+                    </div>
+                    <div class="search-filters">
+                        <select class="filter-select">
+                            <option value="">All Categories</option>
+                            <option value="engineering">Engineering</option>
+                            <option value="medical">Medical</option>
+                            <option value="management">Management</option>
+                            <option value="arts">Arts & Science</option>
+                        </select>
+                        <select class="filter-select">
+                            <option value="">All Locations</option>
+                            <option value="delhi">Delhi</option>
+                            <option value="mumbai">Mumbai</option>
+                            <option value="bangalore">Bangalore</option>
+                            <option value="chennai">Chennai</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Colleges Section -->
+    <section class="featured-colleges">
+        <div class="container">
+            <h2 class="section-title">Top Featured Colleges</h2>
+            <div class="colleges-grid">
+                <a href="college.html?id=1" class="college-card">
+                    <div class="college-image">
+                        <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=400&h=250&fit=crop" alt="IIT Delhi">
+                        <div class="college-badge">Top Ranked</div>
+                    </div>
+                    <div class="college-info">
+                        <h3>Indian Institute of Technology Delhi</h3>
+                        <p class="college-location">New Delhi, Delhi</p>
+                        <div class="college-stats">
+                            <span class="rating">4.8/5</span>
+                            <span class="fees">₹2.5L - 8L</span>
+                        </div>
+                        <div class="college-highlights">
+                            <span class="highlight">Engineering</span>
+                            <span class="highlight">Research</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="college.html?id=2" class="college-card">
+                    <div class="college-image">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&h=250&fit=crop" alt="AIIMS Delhi">
+                        <div class="college-badge">Medical</div>
+                    </div>
+                    <div class="college-info">
+                        <h3>All India Institute of Medical Sciences</h3>
+                        <p class="college-location">New Delhi, Delhi</p>
+                        <div class="college-stats">
+                            <span class="rating">4.9/5</span>
+                            <span class="fees">₹1.3K - 5.8K</span>
+                        </div>
+                        <div class="college-highlights">
+                            <span class="highlight">MBBS</span>
+                            <span class="highlight">Research</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="college.html?id=3" class="college-card">
+                    <div class="college-image">
+                        <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=250&fit=crop" alt="IIM Ahmedabad">
+                        <div class="college-badge">Management</div>
+                    </div>
+                    <div class="college-info">
+                        <h3>Indian Institute of Management Ahmedabad</h3>
+                        <p class="college-location">Ahmedabad, Gujarat</p>
+                        <div class="college-stats">
+                            <span class="rating">4.7/5</span>
+                            <span class="fees">₹25L - 28L</span>
+                        </div>
+                        <div class="college-highlights">
+                            <span class="highlight">MBA</span>
+                            <span class="highlight">Leadership</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="college.html?id=4" class="college-card">
+                    <div class="college-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=250&fit=crop" alt="DU">
+                        <div class="college-badge">Liberal Arts</div>
+                    </div>
+                    <div class="college-info">
+                        <h3>University of Delhi</h3>
+                        <p class="college-location">New Delhi, Delhi</p>
+                        <div class="college-stats">
+                            <span class="rating">4.5/5</span>
+                            <span class="fees">₹15K - 1.2L</span>
+                        </div>
+                        <div class="college-highlights">
+                            <span class="highlight">Arts</span>
+                            <span class="highlight">Science</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="college.html?id=5" class="college-card">
+                    <div class="college-image">
+                        <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=400&h=250&fit=crop" alt="BITS Pilani">
+                        <div class="college-badge">Private</div>
+                    </div>
+                    <div class="college-info">
+                        <h3>Birla Institute of Technology and Science</h3>
+                        <p class="college-location">Pilani, Rajasthan</p>
+                        <div class="college-stats">
+                            <span class="rating">4.6/5</span>
+                            <span class="fees">₹4.5L - 6.2L</span>
+                        </div>
+                        <div class="college-highlights">
+                            <span class="highlight">Engineering</span>
+                            <span class="highlight">Innovation</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="college.html?id=6" class="college-card">
+                    <div class="college-image">
+                        <img src="https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?w=400&h=250&fit=crop" alt="JNU">
+                        <div class="college-badge">Research</div>
+                    </div>
+                    <div class="college-info">
+                        <h3>Jawaharlal Nehru University</h3>
+                        <p class="college-location">New Delhi, Delhi</p>
+                        <div class="college-stats">
+                            <span class="rating">4.4/5</span>
+                            <span class="fees">₹2K - 45K</span>
+                        </div>
+                        <div class="college-highlights">
+                            <span class="highlight">Social Sciences</span>
+                            <span class="highlight">Languages</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Stats Section -->
+    <section class="quick-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>45,000+</h3>
+                    <p>Colleges Listed</p>
+                </div>
+                <div class="stat-item">
+                    <h3>2.5M+</h3>
+                    <p>Students Helped</p>
+                </div>
+                <div class="stat-item">
+                    <h3>500+</h3>
+                    <p>Courses Available</p>
+                </div>
+                <div class="stat-item">
+                    <h3>98%</h3>
+                    <p>Success Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Collegedunia</h3>
+                    <p>Your trusted partner in finding the perfect college and course for your future.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#colleges">Top Colleges</a></li>
+                        <li><a href="#courses">Popular Courses</a></li>
+                        <li><a href="#exams">Entrance Exams</a></li>
+                        <li><a href="#news">Education News</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="#engineering">Engineering</a></li>
+                        <li><a href="#medical">Medical</a></li>
+                        <li><a href="#management">Management</a></li>
+                        <li><a href="#arts">Arts & Science</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#help">Help Center</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Collegedunia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
